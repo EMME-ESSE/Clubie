@@ -86,10 +86,7 @@ image::-webkit-media-controls-timeline {
   /* HASTA ACA LLEGAN LOS CAMBIOS"--------------------------------------------------------------------------------------------------------*/
 .logo-movil {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    margin-top: 15%;   
   }
 header {
     position: relative;
@@ -180,6 +177,7 @@ ul li {
     border-radius: 10px;
     box-shadow: 0 0 54px rgb(0, 0, 0);
     padding: 30px;
+    overflow:;
   }
   .valores {
     width: 75%;
