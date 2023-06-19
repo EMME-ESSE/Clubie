@@ -85,17 +85,14 @@ image::-webkit-media-controls-timeline {
 }
   /* HASTA ACA LLEGAN LOS CAMBIOS"--------------------------------------------------------------------------------------------------------*/
 .logo-movil {
-    position: relative;
-<<<<<<< HEAD
-    margin-top: 15%;   
-=======
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -10%;
-    
->>>>>>> refs/remotes/origin/Alternative
-  }
+  position: relative;
+  margin-top: 15%;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10%;
+}
+
 header {
     position: relative;
     top: 0;
@@ -185,7 +182,7 @@ ul li {
     border-radius: 10px;
     box-shadow: 0 0 54px rgb(0, 0, 0);
     padding: 30px;
-    overflow:;
+    /*overflow:;*/
   }
   .valores {
     width: 75%;
