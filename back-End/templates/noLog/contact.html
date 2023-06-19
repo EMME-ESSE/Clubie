@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/contact.css">
+    <link rel="stylesheet" href="../../css/no-log.css">
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <title>Contacto</title>
 </head>
-<body>
+<body class="cnt">
     {% extends 'base-nolog.html'%}
 
     {% block content %}
@@ -30,6 +30,9 @@
             <input type="hidden" name="_captcha" value="false">
         </form>
     </div>
+    <footer class="footer">
+        <p style="color: white;">Clubie</p>
+    </footer>
     {% endblock %}
 </body>
 </html>
